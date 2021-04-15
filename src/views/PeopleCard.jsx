@@ -6,10 +6,13 @@ const PeopleCard = ({Name,age,gender,id}) => {
         <div className ='card'>
             <div className='card-header'>{Name}</div>
             <div className='card-body'>{age}</div>
-            <div className='card-body'>{gender}</div>
-            <Link to ={'/people/${id}'} className="btn"></Link>
+            <div><p>{gender}</p></div>
+            <Link to ={'/people/${id}'} className="btn">Go to wiki...(Does not route!)</Link>
         </div>
     )
 }
 
-export default PeopleCard
+export default PeopleCard;
+
+// ID wont seperate from string in Link
+// Might not be importing

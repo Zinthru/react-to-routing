@@ -6,9 +6,12 @@ const FilmCard = ({title,description,id}) => {
         <div className ='card'>
             <div className='card-header'>{title}</div>
             <div className='card-body'>{description}</div>
-            <Link to ={'/films/${id}'} className="btn"></Link>
+            <Link to ={'/films/${id}'} className="btn">Go to wiki...(Does not route!)</Link>
         </div>
     )
 }
 
-export default FilmCard
+export default FilmCard;
+
+// ID wont seperate from string in Link
+// Not importing
