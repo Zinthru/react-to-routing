@@ -5,8 +5,8 @@ const NavBar = () => {
         <div className='sticky-top'>
             
             <NavLink exact to={"/"} activeClassName='btn-primary' className='btn btn-outline-primary'>Home</NavLink>
-            <NavLink exact to={'/films'} activeClassName='btn-primary' className='btn btn-outline-primary'>Home</NavLink>
-            <NavLink exact to={'/people'} activeClassName='btn-primary' className='btn btn-outline-primary'>Home</NavLink>
+            <NavLink exact to={'/films'} activeClassName='btn-primary' className='btn btn-outline-primary'>Films</NavLink>
+            <NavLink exact to={'/people'} activeClassName='btn-primary' className='btn btn-outline-primary'>People</NavLink>
         
         </div>
 
